@@ -237,7 +237,7 @@ input::placeholder{
 -------------------- */
 /* Responsiveness for Mobile Devices */
 @media only screen and (max-width:688px) {
-    .banner-container, .top-players, .tour-title, .tour-container, .exclusive-container, .footer{
+    .banner-container, .copa-america, .top-players, .tour-title, .tour-container, .exclusive-container, .footer{
         max-width: 100%;
     }
     .banner-container img{
@@ -246,5 +246,12 @@ input::placeholder{
 
     .top-players, .tour-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .headline p{
+        font-size: 2.5em;
     }
 }
